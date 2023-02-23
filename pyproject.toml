@@ -1,0 +1,27 @@
+[build-system]
+requires = [
+  "setuptools>=61.0",
+  "github >= 1.2.7",
+  "requests >= 2.27.1",
+  ]
+build-backend = "setuptools.build_meta"
+
+
+[project]
+name = "Github-ABA"
+version = "1.0.1"
+authors = [
+  { name="Abdul Basit Ansari", email="abdulbasitansari288@gmail.com" },
+]
+description = "This Package Will Help You To Github Crud Opration."
+readme = "README.md"
+requires-python = ">=3.7"
+classifiers = [
+    "Programming Language :: Python :: 3",
+    "License :: OSI Approved :: MIT License",
+    "Operating System :: OS Independent",
+]
+
+[project.urls]
+"Homepage" = "https://github.com/Abdul-Basit-Ansari/Github-ABA"
+"Bug Tracker" = "https://github.com/Abdul-Basit-Ansari/Github-ABA/issues"
